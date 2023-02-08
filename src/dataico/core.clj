@@ -33,15 +33,18 @@
                    (and (or filter-tax filter-ret) (not (and filter-tax filter-ret))))))))
 
 
-
-
-
-
-(defn -main
-  [& args]
+;This function evaluates the other functions and print the results in clearly. The unique function was requested is Sym-diff-tax-ret. However other 2 functions are usefully to understand the sequence.
+(defn evaluate
+  []
   (do
     (println "Items with a tax rate of 19: " (tax-filter-19 invoice))
     (println "Items with a retention rate of 1: " (ret-filter-1 invoice))
     (println "Items with a retention rate of 1 or tax of 19 but not both: " (Sym-diff-tax-ret invoice))
     )
+  )
+
+
+(defn -main
+  []
+   (evaluate)
   )

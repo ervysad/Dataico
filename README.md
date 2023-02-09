@@ -1,5 +1,10 @@
 # Engineering Challenge
 
+## Check Resutls
+  1.  To check the problem 1 open the core.clj file. You will see tax-filter-19, ret-filter-1 and Sym-diff-tax-ret functions that returns specific items inside the invoice that meet the requirements of the query. 
+  2. To check the problem 2 open invoice_spec.clj. You will see the function encharged of parse the Json invoice to the new format with accurate dates and structure.
+  3. To check the problem 3 open invoice_item.clj. You will see all the edge test that checks the subtotal function of the invoices. It makes it using testitems defined during the tests. 
+  
 ## Getting started
 
 This clojure challenge is made up of 3 questions that reflect the learning you accumulated for the past week. Complete the following instructions:
@@ -47,5 +52,5 @@ Given the function **subtotal** defined in **invoice-item.clj** in this repo, wr
 
 
 
-
-
+## Brian Camilo Valencia Peña
+# Software Developer.

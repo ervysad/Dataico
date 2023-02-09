@@ -1,4 +1,4 @@
-(ns invoice-item)
+(ns invoice-item_test)
 (use 'clojure.test)
 
 
